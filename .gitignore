@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backend uploads (if generated at runtime)
+Backend/uploads/
+
+# Test artifacts
+*.lcov
+
+# Sonar
+.sonar/
+
+# Optional local docs / notes
+debug_api.txt
+temp-status-test.js
+tests-livraison.json
+
+node_modules/
+.scannerwork/
+coverage/
+dist/
+build/
+.env
+Backend/uploads/
