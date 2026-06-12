@@ -34,7 +34,7 @@ export const sendMessage = async (req, res) => {
     if (error.message === 'Conversation non trouvée') {
       res.status(404).json({ error: error.message });
     } else {
-      res.status(500).json({ error: 'Erreur lors de l’envoi du message' });
+      res.status(500).json({ error: 'Erreur lors de l\'envoi du message' });
     }
   }
 };
